@@ -1,0 +1,18 @@
+<TaskerData sr="" dvi="1" tv="5.0u3m">
+	<Task sr="task12">
+		<cdate>1500716133754</cdate>
+		<edate>1501403548587</edate>
+		<id>12</id>
+		<nme>Quick Settings Set Default</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">settings put secure sysui_qs_tiles 'wifi,cell,battery,flashlight,location,rotation,volume_panel,dnd,airplane'</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+	</Task>
+</TaskerData>
