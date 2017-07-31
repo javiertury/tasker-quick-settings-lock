@@ -1,8 +1,8 @@
 # Tasker Disable Quick Settings on Lockscreen
-Automatically disable quick settings if your screen is locked in Cyanogenmod and Lineage OS 14. These tasks and profiles are for the android app [Tasker](http://tasker.dinglisch.net/)
+Automatically disable quick settings if your screen is locked in Cyanogenmod and Lineage OS 14. These tasks and profiles are for the android app [Tasker](http://tasker.dinglisch.net/). Requires root.
 
 # Installation
-The folder `quick-setttings-lock` in this repo contains 2 folders, `profiles` and `tasks`. Copy those 2 folders to your android device, preferably to `/sdcard/Tasker`.
+The folder `quick-setttings-lock` in this repo contains 2 folders, `profiles` and `tasks`. Copy those 2 folders to your android device, preferably to `/sdcard/Tasker`. Make sure that your device is rooted.
   1. Open tasker and then touch and hold on `TASKS` tab until a menu pops up.
   2. Select `import`.
   3. Browse the directory in which you put your `tasks` directory and open it.
