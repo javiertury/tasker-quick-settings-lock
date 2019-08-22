@@ -1,5 +1,5 @@
 # Tasker Disable Quick Settings on Lockscreen
-Disable quick settings on your lockscreen. Compatible with Cyanogenmod and Lineage OS 14. This repository contains tasks and profiles for [Tasker](http://tasker.dinglisch.net/), an app to automatize tasks. Requires root.
+Disable quick settings on your lockscreen. Compatible with Cyanogenmod and Lineage OS 14-16. This repository contains tasks and profiles for [Tasker](http://tasker.dinglisch.net/), an app to automatize tasks. Requires root.
 
 # Installation
 The folder `quick-settings-lock` in this repo contains 2 folders, `profiles` and `tasks`. Copy those 2 folders to your phone under the directory `/sdcard/Tasker`. If the directory doesn't exist, create it. Make sure that your device is rooted.
@@ -15,6 +15,6 @@ The folder `quick-settings-lock` in this repo contains 2 folders, `profiles` and
 
 # Description
 
-These tasks and profiles disable quick settings on the lockscreen and re-enable it again when the screen is unlocked. Actually, many people think that Android should do this by default. This has been reported as [issue 37010638](https://issuetracker.google.com/issues/37010638), but Google doesn't pay attention to this issue.
+These tasks and profiles hide quick settings from your lockscreen. Actually, many people think that Android should do this by default. This has been reported as [issue 37010638](https://issuetracker.google.com/issues/37010638), but Google doesn't pay attention to this issue.
 
-There are 2 main advantages over other existing tasker configurations. First, it restores your last quick settings tiles. Other solutions just restore a preset configuration. Second, the task `Quick Settings Disable` is idempotent. That is, if for whatever reason the task is run more than once before triggering `Quick Settings Enable`, the state is not altered. The next `Quick Settings Enable` will still restore you quick settings tiles. Simple and reliable.
+There are 2 main advantages over other existing tasker configurations. These tasks restore your last quick settings tiles, not some fixed preset. Also the task `Quick Settings Disable` is idempotent. That is, even if `Quick Settings Disable` is run many consecutive times, it will still remember your original tiles, and the next `Quick Settings Enable` will restore them. Simple and reliable.
